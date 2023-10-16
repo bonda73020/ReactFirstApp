@@ -47,8 +47,10 @@ const Simpsons=()=>{
 
 
     return<div id="Simpsons">
-        <h2>Simpsons:</h2>
-        {Family.map(i =>(<SimpsonsUnit unit={i}/>))}
+        <h2>Simpsons</h2>
+        <div id={"SimpsonsContainer"}>
+            {Family.map(i =>(<SimpsonsUnit key={i.name} unit={i}/>))}
+        </div>
  </div>
 }
 

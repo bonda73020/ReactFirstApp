@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial;
+}
+#Simpsons{
+    background: url("https://img.freepik.com/free-vector/horizontal-seamless-pattern-with-clouds_1284-52895.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1697414400&semt=ais");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Simpsons>h2{
+    margin: 3vh 0;
+    font-size: 50pt;
+    color: #eabb05;
+    -webkit-text-stroke: 1px black;
+}
+
+#SimpsonsContainer{
+    margin: 2vh 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.SimpsonsUnit{
+    background: rgba(255, 255, 255, 0.37);
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+    justify-content: space-around;
+    font-size: 16pt;
+    margin-bottom: 3vh;
+    color: #04047e;
+}
+
+.SimpsonsUnit>img{
+    border: 2px solid white;
+    width: 12vw;
+    background: white;
+    border-radius: 10px;
+    margin: 1vh auto 2vh;
+}
+.SimpsonsUnit>.name{
+    text-align: center;
+    font-size: 18pt;
+    margin-bottom: 1vh;
+}
+.SimpsonsUnit>div>div{
+    margin: .5vh 0;
+}
+#RickAndMorty{
+    background: url("https://media.istockphoto.com/id/1354982067/vector/sky-starry-black-night-background-with-star-starry-galaxy-space-8bit-texture-in-flat-style.jpg?s=612x612&w=0&k=20&c=jg_rvaUBAvwbSyIWlRbIGSLf2JkqAehZ0HRfxA8X9VQ=");
+}
+#RickAndMorty>h2{
+    margin:0 0 4vh;
+    font-size: 50pt;
+    color: #05eaea;
+    -webkit-text-stroke: 1px #ffffff;
+    text-align: center;
+}
+
+#RickAndMortyContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.RaMUnit>img{
+    border-radius: 15px;
+    border:3px solid rgb(72, 255, 72);
+}
+.RaMUnit{
+    padding: 4vh 2vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0;
+    width: 17vw;
+    background: rgba(0, 128, 0, 0.47);
+    border-radius: 15px;
+    border: 3px solid rgb(72, 255, 72);
+    justify-content: space-around;
+    color: rgb(72, 255, 72);
+    height:65vh;
+}
+
+.RaMUnit>div>div{
+    margin: .5vh 0;
+}
